@@ -1,6 +1,6 @@
-# Appbrewery - TinDog Startup Website Solution
+# Appbrewery - To-Do List App
 
-This is a solution to the TinDog Startup Website Project from Appbrewery.com
+This is a solution to the To-Do List react app project from Appbrewery.com
 
 ## Table of contents
 
@@ -18,8 +18,8 @@ This is a solution to the TinDog Startup Website Project from Appbrewery.com
 
 Users should be able to:
 
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
+- JavaScript ES6 Spread Operator
+- Map function in React
 
 ### Screenshot
 
@@ -31,11 +31,12 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Bootstrap
+- JavaScript
+- React JS
 
 ### What I learned
 
-Using Bootstrap components, snippets to build websites easily
+Using JavaScript ES6 Spread Operator, Using arrow functions, Adding Map functions
 
 ## Author
 
