@@ -1,4 +1,4 @@
-# Appbrewery - To-Do List App
+# To-Do List App
 
 This is a solution to the To-Do List react app project from Appbrewery.com
 
