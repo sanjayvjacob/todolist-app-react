@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import List from "./List";
 
 function App() {
   const [item, setItem] = useState("");
@@ -28,7 +29,7 @@ function App() {
       </div>
       <div>
         <ul>
-         { newItem.map((toDoItem) => <li>{toDoItem}</li>)}
+         { newItem.map((toDoItem) => <List text={toDoItem} />)} {/* Map over the 'newItem' array to create list items */}
         </ul>
       </div>
     </div>
