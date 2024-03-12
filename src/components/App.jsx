@@ -16,6 +16,10 @@ function App() {
     });
     setItem(""); // Clear the input after adding an item
   }
+
+  function deleteItem(){
+
+  }
   return (
     <div className="container">
       <div className="heading">
@@ -29,7 +33,7 @@ function App() {
       </div>
       <div>
         <ul>
-         { newItem.map((toDoItem) => <List text={toDoItem} />)} {/* Map over the 'newItem' array to create list items */}
+         { newItem.map((toDoItem) => <List text={toDoItem} onChecked={deleteItem}/>)} {/* Map over the 'newItem' array to create list items */}
         </ul>
       </div>
     </div>
