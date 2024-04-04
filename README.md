@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Live site URL :
 
-https://sanjayvjacob.github.io/React-ToDoList-app/
+https://sanjayvjacob.github.io/todolist-app-react/
 
 ## My process
 
