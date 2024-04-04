@@ -5,21 +5,19 @@ function App() {
   const [item, setItem] = useState("");
   const [newItem, setNewItem] = useState([]);
 
-  function saveItem(event){
+  function saveItem(event) {
     const itemName = event.target.value;
     setItem(itemName);
   }
 
-  function addItem(){
+  function addItem() {
     setNewItem((prevValue) => {
       return [...prevValue, item];
     });
     setItem(""); // Clear the input after adding an item
   }
 
-  function deleteItem(){
-
-  }
+  function deleteItem() {}
   return (
     <div className="container">
       <div className="heading">
@@ -33,7 +31,10 @@ function App() {
       </div>
       <div>
         <ul>
-         { newItem.map((toDoItem) => <List text={toDoItem} onChecked={deleteItem}/>)} {/* Map over the 'newItem' array to create list items */}
+          {newItem.map((toDoItem) => (
+            <List text={toDoItem} onChecked={deleteItem} />
+          ))}{" "}
+          {/* Map over the 'newItem' array to create list items */}
         </ul>
       </div>
     </div>
