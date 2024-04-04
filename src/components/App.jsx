@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import List from "./List";
+import "./styles.css";
 
 function App() {
   const [item, setItem] = useState("");
@@ -34,7 +35,6 @@ function App() {
           {newItem.map((toDoItem) => (
             <List text={toDoItem} onChecked={deleteItem} />
           ))}{" "}
-          {/* Map over the 'newItem' array to create list items */}
         </ul>
       </div>
     </div>
